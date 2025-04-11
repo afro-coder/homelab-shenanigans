@@ -1,0 +1,11 @@
+name: proxmox-vms
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: A minimal Random Python Pulumi program.
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: random-python
